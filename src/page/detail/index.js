@@ -77,7 +77,7 @@ var page = {
     },
     // 数据匹配
     filter : function(data){
-        data.subImages = data.subImages.split(',');
+        data.subImages = (this.data.subImages || "").split(',');
     }
 };
 $(function(){
