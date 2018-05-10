@@ -2,7 +2,7 @@
 'use strict';
 require('./index.css');
 
-/*
+
 var _mm     = require('util/mm.js');
 var _user   = require('service/user-service.js');
 var _cart   = require('service/cart-service.js');
@@ -52,4 +52,3 @@ var nav = {
 };
 
 module.exports = nav.init();
-*/
